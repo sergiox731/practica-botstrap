@@ -1,1 +1,204 @@
+body {
+    background-image: url("https://www.umes.edu.gt/wp-content/uploads/2015/02/LOGO-UMES-COLOR.png");
+    background-repeat: no-repeat;
+    background-position: center 1000px;
+    background-attachment: scroll;
+   }
 
+div{
+    border: 0.5px solid blue;
+}
+
+.encabezadoIzquierdo{
+    background: yellowgreen;
+}
+
+.encabezadoDerecho{
+  padding-top: 5px;
+    background: skyblue;
+  text-align:center;
+}
+
+.izquierdo{
+    background: pink;
+}
+
+.centro{
+    background: rebeccapurple;
+}
+
+.derecho{
+    background: palevioletred;
+}
+
+.piePagina{
+    background:rgb(142, 206, 142);
+  padding-top: 15px;
+  text-align: center;
+}
+
+.textoPiePagina{
+  font-size: 0.8rem;
+}
+
+#itemImportante2{
+    background-color: crimson;
+    font-size:20px;
+   }
+
+   img{
+    width:300px;
+    height:300px;
+    border-radius: 100%; ;
+    box-shadow: 10px 10px 10px green ;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    border: solid 3px blue;
+    margin: 10px;
+    color: lightslategray;
+   }
+
+   .menu {
+    display: block;
+    position: relative;
+    height: 76px;
+    width: 120px;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  /* Bordes superiores */
+  
+  .menu.servicios {
+    border-top: #ffc000 0.3em solid;
+  }
+  
+  .menu.recursos {
+    border-top: #b81800 0.3em solid;
+  }
+  
+  .menu.proyectos {
+    border-top: #00a53c 0.3em solid;
+  }
+  
+  .menu.contacto {
+    border-top: #9600b4 0.3em solid;
+  }
+  
+  /* Atributos y transición */
+  
+  .menu > span {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+  }
+  
+  .menu:after, .menu > span > span {
+    display: block;
+    text-align: center;
+    border-radius: 0em;
+    padding: 2em 0 1.5em;
+  }
+  
+  .menu:after {
+    content: attr(data-title);
+    width: 100%;
+    background: #000;
+    color: #fff; 
+  }
+  
+  .menu > span > span {
+    width: 120px;
+    color: #fff;
+  }
+  
+  .menu.servicios > span > span {
+    background: #ffc000;
+  }
+  
+  .menu.proyectos > span > span {
+    background: #00a53c;
+  }
+  
+  .menu.recursos > span > span {
+    background: #b81800;
+  }
+  
+  .menu.contacto > span > span {
+      background: #9600b4;
+  }
+  
+  /* Lo que pasa con hover */
+  
+  .menu:hover > span {
+      height: 100%; 
+  }
+  
+  /* Dando formato a lista */ 
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li a {
+    display: inline;
+    float: left;
+    text-decoration: none;
+    font-family: sans;
+  }
+
+  #itemImportante2{
+    background-color: crimson;
+    font-size:20px;
+   }
+  
+   a {
+  
+    background-color: white;
+    border: 1px solid white;
+  }
+  
+  a:visited {
+    background-color: skyblue;
+    border-color: yellow;
+    color: yellow;
+  }
+
+  footer{
+    width:100%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .footer li{
+  display: inline-block;
+  }
+  
+  .footer li{
+    text-decoration: none;
+    background: #0f9cec;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .footer li a:hover{
+  background: darkblue;
+  }
+  
+  #itemImportante2{
+    background-color: crimson;
+    font-size:20px;
+   }
