@@ -1,0 +1,23 @@
+[33mcommit 0688c5f40908f44151ff923aeb6715b593205b98[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sergio Jiménez <cerjiojimenz61@gmail.com>
+Date:   Sun Aug 7 17:14:34 2022 -0600
+
+    UPDATE -Grid en bootstrap
+
+[33mcommit 4eba4b544f5a6888f0bcedf605d5ace6cc6cbee8[m[33m ([m[1;31morigin/estructuraHTML[m[33m, [m[1;32mestructuraHTML[m[33m)[m
+Author: Sergio Jiménez <cerjiojimenz61@gmail.com>
+Date:   Fri Aug 5 14:51:41 2022 -0600
+
+    UPDATE -Agrega estructura HTML
+
+[33mcommit 559291ee2f2d5359657f7d5f03c5eb4d522a1a9f[m
+Author: Sergio Jiménez <cerjiojimenz61@gmail.com>
+Date:   Fri Aug 5 14:29:50 2022 -0600
+
+    ADD -Se crea estructura inicial
+
+[33mcommit d14e9d3b5cfdf2a86cfc780fe119663e98e34c01[m
+Author: sergiox731 <88098987+sergiox731@users.noreply.github.com>
+Date:   Fri Aug 5 14:07:32 2022 -0600
+
+    Initial commit
